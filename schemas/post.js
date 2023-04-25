@@ -48,6 +48,13 @@ export default {
       validation: (Rule) => Rule.required()
     },
     {
+      name: 'featured',
+      title: 'Featured',
+      type: 'boolean',
+      description: 'Is this a featured post?',
+      initialValue: false,
+    },
+    {
       name: 'publishedAt',
       title: 'Published At',
       type: 'datetime',
