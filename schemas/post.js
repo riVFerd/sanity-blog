@@ -7,7 +7,7 @@ export default {
       name: 'title',
       title: 'Title',
       type: 'string',
-      validation: (Rule) => Rule.required().max(100)
+      validation: (Rule) => Rule.required().max(200)
     },
     {
       name: 'slug',
@@ -15,7 +15,7 @@ export default {
       type: 'slug',
       options: {
         source: 'title',
-        maxLength: 200
+        maxLength: 250
       }
     },
     {
